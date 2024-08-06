@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso de Desarrollo Web</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+TAS:wght@100..400&family=Playwrite+BE+VLG:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>" Curso de Desarrollo Web "</h1>
+    </header>
+    <div class="toggle-container">
+      <button class="toggle-button" onclick="toggleDarkMode()">
+        <img
+          src="https://img.icons8.com/ios-glyphs/30/000000/light-on.png"
+          id="toggle-icon"
+          alt="Toggle Dark Mode"
+        />
+      </button>
+    </div>
+    <div class="tabs">
+      <button class="tablink" onclick="openTab(event, 'semana1')">
+        Semana 1
+      </button>
+      <button class="tablink" onclick="openTab(event, 'semana2')">
+        Semana 2
+      </button>
+      <button class="tablink" onclick="openTab(event, 'semana3')">
+        Semana 3
+      </button>
+      <button class="tablink" onclick="openTab(event, 'semana4')">
+        Semana 4
+      </button>
+    </div>
+    <div id="semana1" class="tabcontent">
+      <h1>Introducción al Desarrollo Web:</h1>
+
+      <h2>1. ¿Qué es el Desarrollo Web?</h2>
+      <div class="contenedor">
+        <div>
+          <p>
+            El desarrollo web es el proceso de creación y mantenimiento de sitios
+            web. Incluye aspectos como el diseño web, desarrollo de contenido,
+            scripting del lado del cliente/servidor y configuración de seguridad de
+            la red, entre otros.
+          </p>
+        </div>
+        <img class="logo" src="https://i.pinimg.com/564x/32/d6/27/32d627865f63999081e69d7956e528d0.jpg">
+      </div>
+      <h2>2. Componentes del Desarrollo Web</h2>
+      <h3>Front-End (Cliente)</h3>
+      <div class="contenedor">
+        <div>
+        <ul>
+          <li>
+            <strong>HTML (HyperText Markup Language)</strong>: Lenguaje de marcado
+              utilizado para estructurar y presentar el contenido en la web.
+          </li>
+          <li>
+            <strong>CSS (Cascading Style Sheets)</strong>: Lenguaje de hojas de
+            estilo utilizado para describir la presentación de un documento HTML.
+          </li>
+          <li>
+            <strong>JavaScript</strong>: Lenguaje de programación que permite
+            crear contenido dinámico e interactivo en la web.
+          </li>
+        </ul>
+        </div>
+        <img class="logo" src="https://i.pinimg.com/564x/a6/24/5c/a6245c1cc6b78e98f554d475e3e498a8.jpg">
+      </div>
+
+      <h3>Back-End (Servidor)</h3>
+
+      <ul>
+        <li>
+          <strong>Lenguajes de programación</strong>: PHP, Python, Ruby, Java,
+          Node.js.
+        </li>
+        <li><strong>Bases de datos</strong>: MySQL, PostgreSQL, MongoDB.</li>
+        <li><strong>Servidores</strong>: Apache, Nginx.</li>
+      </ul>
+      
+      <h2>3. Desarrollo Front-End</h2>
+      <h3>HTML</h3>
+      <p>Estructura básica de un documento HTML. Etiquetas comunes:</p>
+      <ul>
+        <li>
+          <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>,
+          <code>&lt;body&gt;</code>
+        </li>
+        <li><code>&lt;div&gt;</code>, <code>&lt;span&gt;</code></li>
+        <li><code>&lt;a&gt;</code>, <code>&lt;img&gt;</code></li>
+        <li>
+          <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>,
+          <code>&lt;p&gt;</code>, <code>&lt;ul&gt;</code>,
+          <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code>,
+          <code>&lt;form&gt;</code>, <code>&lt;input&gt;</code>,
+          <code>&lt;button&gt;</code>
+        </li>
+      </ul>
+
+      <h3>CSS</h3>
+      <p>
+        Selectores y propiedades básicas: <code>color</code>,
+        <code>font-size</code>, <code>margin</code>, <code>padding</code>,
+        <code>border</code>. Modelo de caja (box model): cómo los elementos HTML
+        se representan en el navegador. Diseño responsivo: uso de media queries
+        para adaptar el diseño a diferentes tamaños de pantalla.
+      </p>
+
+      <h3>JavaScript</h3>
+      <p>
+        Variables, funciones y eventos. Manipulación del DOM (Document Object
+        Model). Librerías y frameworks populares: jQuery, React, Angular,
+        Vue.js.
+      </p>
+
+      <h2>4. Desarrollo Back-End</h2>
+      <h3>Lenguajes de programación</h3>
+      <p>PHP, Python, Ruby, Java, Node.js.</p>
+
+      <h3>Bases de datos</h3>
+      <p>
+        SQL (Structured Query Language): Lenguaje estándar para gestionar bases
+        de datos relacionales. NoSQL: Bases de datos no relacionales como
+        MongoDB, diseñadas para datos flexibles y no estructurados.
+      </p>
+
+      <h3>Servidores Web</h3>
+      <p>
+        Apache: Uno de los servidores web más utilizados. Nginx: Conocido por su
+        alto rendimiento y bajo consumo de recursos.
+      </p>
+
+      <h2>5. Herramientas y Tecnologías</h2>
+      <h3>Sistemas de Control de Versiones</h3>
+      <div class="contenedor">
+        <div>
+          <p>Git, GitHub.</p>
+        </div>
+        <img id="github" src="https://i.pinimg.com/564x/b3/7b/05/b37b05a713d8eebcbb475119e587859b.jpg">
+      </div>
+
+      <h3>Entornos de Desarrollo Integrados (IDE)</h3>
+      <p>Visual Studio Code, Sublime Text, Atom.</p>
+
+      <h3>Frameworks y Librerías</h3>
+      <ul>
+        <li><strong>Front-End</strong>: Bootstrap, Foundation.</li>
+        <li>
+          <strong>Back-End</strong>: Django, Flask, Ruby on Rails, Express.js.
+        </li>
+      </ul>
+
+      <h2>6. Metodologías de Desarrollo</h2>
+      <p>Desarrollo Ágil: Scrum, Kanban. Desarrollo en Cascada (Waterfall).</p>
+
+      <h2>7. Buenas Prácticas</h2>
+      <ul>
+        <li>Escribir código limpio y comentado.</li>
+        <li>Seguir estándares web.</li>
+        <li>Optimización para motores de búsqueda (SEO).</li>
+        <li>
+          Seguridad web: Protección contra ataques comunes como SQL injection,
+          Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF).
+        </li>
+      </ul>
+
+      <h2>8. Recursos de Aprendizaje</h2>
+      <ul>
+        <li>
+          <a href="https://www.freecodecamp.org/" target="_blank"
+            >freeCodeCamp</a
+          >
+        </li>
+        <li>
+          <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>
+        </li>
+        <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+        <li>
+          <a href="https://www.coursera.org/" target="_blank">Coursera</a>
+        </li>
+      </ul>
+
+      <h2>Conclusión</h2>
+      <p>
+        El desarrollo web es un campo amplio y en constante evolución que
+        combina creatividad y habilidades técnicas. Aprender las bases del
+        desarrollo web es el primer paso para construir aplicaciones web
+        robustas y atractivas.
+      </p><br>
+
+      <p>Resumen de los puntos clave y lo aprendido en los talleres.</p>
+    </div>
+    <div id="semana2" class="tabcontent">
+      <h1>Semana 2: Introducción a HTML</h1>
+
+      <h2>1. ¿Qué es HTML?</h2>
+        <div class="contenedor">
+          <div>
+          <p>
+             HTML (HyperText Markup Language) es el lenguaje estándar para crear
+            páginas web. HTML describe la estructura de una página web mediante el
+            uso de elementos etiquetados.
+          </p>
+          </div>
+          <img class="logo" src="assets/html.jpeg">
+        </div>
+      <h2>2. Estructura Básica de un Documento HTML</h2>
+    <div class="contenedor">
+      <div class="codigo">
+        <pre><code>&lt;!DOCTYPE html&gt;
+        &lt;html lang="es"&gt;
+        &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Título de la página&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;h1&gt;Encabezado Principal&lt;/h1&gt;
+        &lt;p&gt;Párrafo de texto.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;</code></pre>
+      </div>
+    </div>
+
+      <h2>3. Elementos Comunes de HTML</h2>
+      <div class="contenedor">
+        <div>
+      <ul>
+        <li>
+          <strong>&lt;html&gt;</strong>: Elemento raíz que envuelve todo el
+          contenido de la página.
+        </li>
+        <li>
+          <strong>&lt;head&gt;</strong>: Contiene metadatos, el título de la
+          página y enlaces a recursos externos como hojas de estilo.
+        </li>
+        <li>
+          <strong>&lt;title&gt;</strong>: Define el título de la página que
+          aparece en la barra del navegador.
+        </li>
+        <li>
+          <strong>&lt;body&gt;</strong>: Contiene el contenido visible de la
+          página web.
+        </li>
+        <li>
+          <strong>&lt;h1&gt; a &lt;h6&gt;</strong>: Encabezados de diferentes
+          niveles, siendo &lt;h1&gt; el más importante y &lt;h6&gt; el menos
+          importante.
+        </li>
+        <li><strong>&lt;p&gt;</strong>: Define un párrafo de texto.</li>
+        <li><strong>&lt;a&gt;</strong>: Define un enlace.</li>
+        <li><strong>&lt;img&gt;</strong>: Inserta una imagen en la página.</li>
+        <li><strong>&lt;ul&gt;</strong>: Define una lista desordenada.</li>
+        <li><strong>&lt;ol&gt;</strong>: Define una lista ordenada.</li>
+        <li><strong>&lt;li&gt;</strong>: Define un ítem de lista.</li>
+        <li>
+          <strong>&lt;div&gt;</strong>: Define una sección o contenedor genérico
+          en la página.
+        </li>
+        <li>
+          <strong>&lt;span&gt;</strong>: Define una sección en línea o
+          contenedor genérico.
+        </li>
+      </ul>
+      </div>
+      <img class="logo" src="https://i.pinimg.com/564x/29/92/6a/29926ad974c6f94187ecf49cb84aefe8.jpg">
+      </div>
+
+      <h2>4. Atributos de HTML</h2>
+      <p>
+        Los elementos HTML pueden tener atributos que proporcionan información
+        adicional sobre el elemento. Los atributos se escriben dentro de la
+        etiqueta de apertura y generalmente vienen en pares nombre/valor como
+        <code>nombre="valor"</code>.
+      </p>
+      <ul>
+        <li>
+          <strong>class</strong>: Asigna una o más clases a un elemento, que
+          pueden ser utilizadas para aplicar estilos CSS.
+        </li>
+        <li>
+          <strong>id</strong>: Asigna un identificador único a un elemento, que
+          puede ser utilizado para aplicar estilos CSS o manipular el elemento
+          con JavaScript.
+        </li>
+        <li>
+          <strong>href</strong>: Especifica la URL de la página a la que enlaza
+          un enlace.
+        </li>
+        <li><strong>src</strong>: Especifica la URL de la imagen a mostrar.</li>
+        <li>
+          <strong>alt</strong>: Proporciona un texto alternativo para una
+          imagen.
+        </li>
+      </ul>
+
+      <h2>5. Ejemplo Completo</h2>
+      <p>
+        A continuación se muestra un ejemplo completo de una página HTML con
+        algunos de los elementos y atributos mencionados:
+      </p>
+    <div class="codigo">
+      <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Mi Primera Página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Bienvenidos a Mi Página&lt;/h1&gt;
+    &lt;p&gt;Este es un ejemplo de una página HTML.&lt;/p&gt;
+    &lt;img src="ruta/a/mi-imagen.jpg" alt="Descripción de la imagen"&gt;
+    &lt;p&gt;Visita &lt;a href="https://www.ejemplo.com"&gt;este enlace&lt;/a&gt; para más información.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+</div>
+
+      <h2>6. Recursos Adicionales</h2>
+      <ul>
+        <li>
+          <a
+            href="https://developer.mozilla.org/es/docs/Learn/HTML"
+            target="_blank"
+            >Introducción a HTML - MDN Web Docs</a
+          >
+        </li>
+        <li>
+          <a href="https://www.w3schools.com/html/" target="_blank"
+            >HTML Tutorial - W3Schools</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5"
+            target="_blank"
+            >HTML Básico y HTML5 - freeCodeCamp</a
+          >
+        </li>
+      </ul><br>
+      <p>Resumen de los puntos clave y lo aprendido en los talleres.</p>
+    </div>
+    <div id="semana3" class="tabcontent">
+      <h1>Semana 3: Introducción a CSS</h1>
+
+      <h2>1. ¿Qué es CSS?</h2>
+        <div class="contenedor">
+          <div>
+            <p>
+            CSS (Cascading Style Sheets) es un lenguaje de hojas de estilo utilizado
+            para describir la presentación de un documento HTML. CSS controla el
+            aspecto visual de la página web, incluyendo colores, fuentes, márgenes,
+            bordes y disposición del contenido.
+            </p>
+          </div>
+          <img class="logo" src="assets/css.jpeg">
+        </div>
+
+      <h2>2. Cómo Incluir CSS en HTML</h2>
+      <ul>
+        <li>
+          <strong>Inline CSS</strong>: Utilizando el atributo
+          <code>style</code> dentro de un elemento HTML.
+        </li>
+        <li>
+          <strong>Internal CSS</strong>: Usando una etiqueta
+          <code>&lt;style&gt;</code> dentro del <code>&lt;head&gt;</code> del
+          documento HTML.
+        </li>
+        <li>
+          <strong>External CSS</strong>: Enlazando un archivo CSS externo
+          utilizando la etiqueta <code>&lt;link&gt;</code> dentro del
+          <code>&lt;head&gt;</code>.
+        </li>
+      </ul>
+
+      <h2>3. Selectores y Propiedades Básicas de CSS</h2>
+      <p>
+        CSS utiliza selectores para aplicar estilos a elementos HTML. A
+        continuación, se muestran algunos selectores comunes y propiedades
+        básicas:
+      </p>
+      <ul>
+        <li>
+          <strong>Selector de Elemento</strong>: Aplica estilos a todos los
+          elementos de un tipo específico.
+          <pre><code>p {
+    color: blue;
+}</code></pre>
+        </li>
+        <li>
+          <strong>Selector de Clase</strong>: Aplica estilos a todos los
+          elementos con una clase específica.
+          <pre><code>.mi-clase {
+    font-size: 20px;
+}</code></pre>
+        </li>
+        <li>
+          <strong>Selector de ID</strong>: Aplica estilos a un elemento con un
+          ID específico.
+          <pre><code>#mi-id {
+    background-color: yellow;
+}</code></pre>
+        </li>
+      </ul>
+
+      <h2>4. Modelo de Caja (Box Model)</h2>
+      <div class="contenedor">
+        <div>
+          <p>
+            El modelo de caja en CSS describe cómo se representan los elementos en
+            el navegador. Cada elemento se representa como una caja rectangular, que
+            incluye:
+          </p>
+        <ul>
+          <li>
+            <strong>Contenido</strong>: El contenido del elemento, como texto o
+            imágenes.
+          </li>
+          <li>
+            <strong>Relleno (Padding)</strong>: Espacio entre el contenido y el
+            borde.
+          </li>
+          <li><strong>Borde (Border)</strong>: Línea que rodea el relleno.</li>
+          <li>
+            <strong>Margen (Margin)</strong>: Espacio entre el borde y otros
+            elementos.
+          </li>
+        </ul>
+        </div>
+        <img class="logo" src="https://i.pinimg.com/564x/b1/79/76/b179765cbff3d5c6ac2f6cc932293af5.jpg">
+      </div>
+      <pre><code>div {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 15px;
+}</code></pre>
+
+      <h2>5. Ejemplo Completo</h2>
+      <p>
+        A continuación se muestra un ejemplo completo de cómo utilizar CSS para
+        estilizar un documento HTML:
+      </p>
+    <div class="codigo">
+      <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Mi Primera Página Estilizada&lt;/title&gt;
+    &lt;style&gt;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            color: #3498db;
+        }
+        .contenido {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contenido p {
+            line-height: 1.6;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Bienvenidos a Mi Página Estilizada&lt;/h1&gt;
+    &lt;div class="contenido"&gt;
+        &lt;p&gt;Este es un ejemplo de una página HTML con CSS aplicado para mejorar su apariencia visual.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    </div>
+
+      <h2>6. Recursos Adicionales</h2>
+      <ul>
+        <li>
+          <a
+            href="https://developer.mozilla.org/es/docs/Web/CSS"
+            target="_blank"
+            >Guía de CSS - MDN Web Docs</a
+          >
+        </li>
+        <li>
+          <a href="https://www.w3schools.com/css/" target="_blank"
+            >CSS Tutorial - W3Schools</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-css"
+            target="_blank"
+            >CSS Básico - freeCodeCamp</a
+          >
+        </li>
+      </ul><br>
+
+      <p>Resumen de los puntos clave y lo aprendido en los talleres.</p>
+    </div>
+    <div id="semana4" class="tabcontent">
+      <h1>Semana 4: Introducción a JavaScript (DOM, HTTP y Fetch)</h1>
+      
+      <h2>1. ¿Qué es JavaScript?</h2>
+      <div class="contenedor">
+        <div>
+          <p>
+            JavaScript es un lenguaje de programación que permite crear contenido
+            dinámico e interactivo en las páginas web. Se ejecuta en el navegador
+            del cliente, lo que lo hace ideal para realizar tareas que requieran una
+            respuesta rápida y sin necesidad de recargar la página.
+          </p>
+        </div>
+        <img class="logo" src="assets/java.jpg">
+      </div>
+      <h2>2. Manipulación del DOM</h2>
+      <p>
+        El DOM (Document Object Model) es una interfaz de programación que
+        permite a los scripts actualizar el contenido, la estructura y el estilo
+        de un documento mientras se está viendo. Con JavaScript, puedes
+        seleccionar y manipular elementos del DOM para cambiar la apariencia y
+        el comportamiento de una página web.
+      </p>
+      <h3>Selección de Elementos</h3>
+    <div class="codigo">
+      <pre><code><p style="color: green;">// Seleccionar un elemento por su ID</p>
+const elemento = document.getElementById('mi-id');
+
+<p style="color: green;">// Seleccionar elementos por su clase</p>
+const elementos = document.getElementsByClassName('mi-clase');
+
+<p style="color: green;">// Seleccionar elementos utilizando un selector CSS</p>
+const parrafos = document.querySelectorAll('p');
+      </code></pre>
+    </div>
+      <h3>Manipulación de Elementos</h3>
+    <div class="codigo">
+      <pre><code>
+<p style="color: green;">// Cambiar el contenido de texto de un elemento</p>
+elemento.textContent = 'Nuevo contenido';
+
+<p style="color: green;">// Cambiar el estilo de un elemento</p>
+elemento.style.color = 'blue';
+
+<p style="color: green;">// Añadir una clase a un elemento</p>
+elemento.classList.add('nueva-clase');
+
+<p style="color: green;">// Crear un nuevo elemento y añadirlo al DOM</p>
+const nuevoElemento = document.createElement('div');
+nuevoElemento.textContent = 'Soy un nuevo div';
+document.body.appendChild(nuevoElemento);
+      </code></pre>
+    </div>
+    <div class="contenedor">
+      <div>
+        <h2>3. Solicitudes HTTP</h2>
+        <p>
+          JavaScript permite realizar solicitudes HTTP para comunicarse con
+          servidores y recuperar datos sin necesidad de recargar la página. Esto
+          se puede hacer utilizando objetos como <code>XMLHttpRequest</code> o la
+          API Fetch.
+        </p>
+      </div>
+      <img id="http" src="https://i.pinimg.com/736x/8b/bd/4d/8bbd4dd79bbd5d61129b5b1884ed4870.jpg">
+    </div>
+
+    <h3>XMLHttpRequest</h3>
+    <div class="codigo">
+      <pre><code>const xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://api.ejemplo.com/datos', true);
+xhr.onload = function() {
+    if (xhr.status === 200) {
+        console.log(xhr.responseText);
+    }
+};
+xhr.send();
+      </code></pre>
+    </div>
+
+      <h2>4. API Fetch</h2>
+      <p>
+        La API Fetch es una forma moderna y más sencilla de realizar solicitudes
+        HTTP en JavaScript. Utiliza promesas para manejar la asincronía.
+      </p>
+  <div class="codigo">
+    <pre><code>fetch('https://api.ejemplo.com/datos')
+    .then(response =&gt; response.json())
+    .then(data =&gt; {
+        console.log(data);
+    })
+    .catch(error =&gt; {
+        console.error('Error:', error);
+    });
+    </code></pre>
+  </div>
+
+    <h2>5. Ejemplo Completo</h2>
+    <p>
+      A continuación se muestra un ejemplo completo que combina la
+      manipulación del DOM y el uso de la API Fetch para recuperar y mostrar
+      datos desde una API.
+    </p>
+
+    <div class="codigo">
+    <pre><code>&lt;!DOCTYPE html&gt;
+    &lt;html lang="es"&gt;
+    &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Ejemplo Completo de JavaScript&lt;/title&gt;
+    &lt;style&gt;
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .usuario {
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Lista de Usuarios&lt;/h1&gt;
+    &lt;div id="usuarios"&gt;&lt;/div&gt;
+
+    &lt;script&gt;
+        <p style="color: green;">// Función para obtener datos de una API y mostrarlos en el DOM</p>
+        function cargarUsuarios() {
+            fetch('https://jsonplaceholder.typicode.com/users')
+                .then(response => response.json())
+                .then(data => {
+                    const contenedorUsuarios = document.getElementById('usuarios');
+                    data.forEach(usuario => {
+                        const divUsuario = document.createElement('div');
+                        divUsuario.classList.add('usuario');
+                        divUsuario.textContent = `Nombre: ${usuario.name}, Email: ${usuario.email}`;
+                        contenedorUsuarios.appendChild(divUsuario);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+
+      <p style="color: green;">// Cargar usuarios al cargar la página</p>
+        window.onload = cargarUsuarios;
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    </div>
+
+      <h2>6. Recursos Adicionales</h2>
+      <ul>
+        <li>
+          <a
+            href="https://developer.mozilla.org/es/docs/Web/JavaScript"
+            target="_blank"
+            >Guía de JavaScript - MDN Web Docs</a
+          >
+        </li>
+        <li>
+          <a href="https://www.w3schools.com/js/" target="_blank"
+            >JavaScript Tutorial - W3Schools</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/"
+            target="_blank"
+            >JavaScript Básico - freeCodeCamp</a
+          >
+        </li>
+      </ul><br>
+      <p>Resumen de los puntos clave y lo aprendido en los talleres.</p>
+    </div>
+    <footer>
+      <p>&copy; 2024 Curso de Desarrollo Web</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
